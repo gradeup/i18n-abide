@@ -13,7 +13,7 @@
   },
   "main": "lib/i18n.js",
   "engines": {
-    "node": ">= 6.9.0"
+    "node": ">= 8"
   },
   "dependencies": {
     "async": "2.6.1",
