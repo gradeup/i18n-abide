@@ -2,7 +2,7 @@
   "author": "Austin King <shout@ozten.com> (http://ozten.com)",
   "name": "@gradeup/i18n-abide",
   "description": "Express/connect module for Node i18n and l10n support",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "homepage": "https://github.com/gradeup/i18n-abide",
   "repository": {
     "type": "git",
@@ -23,10 +23,12 @@
     "plist": "3.0.1"
   },
   "devDependencies": {
+    "standard-version": "^9.0.0",
     "vows": "0.8.2"
   },
   "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/vows tests/*-tests.js --spec"
+    "test": "NODE_PATH=lib node_modules/.bin/vows tests/*-tests.js --spec",
+    "release": "standard-version"
   },
   "bin": {
     "check-l10n-config": "bin/check-l10n-config.js",
